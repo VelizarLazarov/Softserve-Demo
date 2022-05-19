@@ -1,0 +1,62 @@
+.pcPage{
+    width: 100%;
+}
+.pcName{
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+}
+.pcImgContainer{
+    width: 260px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 20px;
+    float: left;
+    position: relative;
+}
+.computerImg{
+    width:100%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
+h2{
+    text-align: center;
+    font-weight: lighter;
+}
+.pcSpecs{
+    float :right;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 600px;
+    height: 300px;
+    margin-right: 170px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+.specNamesList,.specStatList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.specNamesList{
+    float: left;
+}
+.specStatList{
+    float: right;
+}
+.specName,.specStat{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.specStat{
+    text-align: right;
+}
+a{
+    text-decoration: underline;
+    color: black;
+}

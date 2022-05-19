@@ -1,0 +1,78 @@
+
+.cardList{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.cardContainer{
+    width:240px;
+    height:360px;
+    border: 1px solid black;
+    background-color:lavender;
+}
+.imgContainer{
+    height: 240px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.cardImg{
+    width:200px;
+    max-height: 240px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
+.cardList > li{
+    padding: 30px;
+}
+.textContainer{
+    text-align: center;
+    margin-top: -10px;
+}
+.textContainer p{
+    font-size: 18px;
+}
+.textContainer > button{
+    background-color:cornflowerblue;
+    border: none;
+    margin-bottom: 0;
+    padding: 10px 32px;
+}
+.textContainer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 32px;
+}
+.textContainer > button:hover{
+    cursor: pointer;
+}
+.leftBtn,.rightBtn{
+    height: 100px;
+    width: 40px;
+    color: white;
+    border: none;
+}
+
+.leftBtn,.rightBtn:hover{
+    cursor: pointer;
+}
+
+.leftBtn{
+    background-color: black;
+    position: absolute;
+    top: 45%;
+    left:0;
+}
+
+.rightBtn{
+    background-color: black;
+    position: absolute;
+    top: 45%;
+    right:0;
+}

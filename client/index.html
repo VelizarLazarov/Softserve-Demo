@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./router.js" defer></script>
+</head>
+<body id="root">
+    <header>
+        <h1 class="title">Computers and  Parts</h1>
+        <nav class="navigation">
+            <ul class="navList">
+                <li class="navItem desktop" id="pcFilter">Computers</li>
+                <li class="navItem laptop" id="laptopFilter">Laptops</li>
+                <li class="navItem part" id="partFilter">Parts</li>
+                <li class="navItem all" id="allFilter">All</li>
+                <li class="navItem all" id="createComputer"><a href="/desktops/create" onclick="route()">Add Desktop</a></li>
+                <li class="navItem all" id="createLaptop"><a href="/laptops/create" onclick="route()">Add Laptop</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main id="main">
+    </main>
+    <footer>
+        <p class="footerText"></p>
+    </footer>
+</body>
+</html>

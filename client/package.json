@@ -1,0 +1,17 @@
+{
+  "name": "demoone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "router.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jquery": "^3.6.0",
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.37"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

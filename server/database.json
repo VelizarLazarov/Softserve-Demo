@@ -1,0 +1,78 @@
+{
+    "computers": [
+        {
+            "type": "desktop",
+            "model": "ASUS G10CE-21403",
+            "RAM": "256MB",
+            "CPU": "INTEL CORE I5-11400F",
+            "GPU": "NVIDIA GeForce 1660Ti",
+            "HDD": "1TB",
+            "Motherboard": "ASUS PRIME A320M-K/CSM",
+            "imgPath": "http://localhost:3000/images/computer1.jpg",
+            "id": "asd123"
+        },
+        {
+            "type": "laptop",
+            "model": "LENOVO ThinkPad E15",
+            "RAM": "8GB",
+            "CPU": "INTEL CORE i3-1115G4",
+            "GPU": "INTEL UHD GRAPHICS",
+            "SSD": "256 GB",
+            "Weight": "1.700 kg",
+            "imgPath": "http://localhost:3000/images/laptop.jpg",
+            "id": "asd133"
+        }
+    ],
+    "parts": [
+        {
+            "type": "RAM",
+            "description": "also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry,[1] and specialized processors such as graphics processing units (GPUs).",
+            "videos": [
+                "https://www.youtube.com/watch?v=3-nuSx3F6YU",
+                "https://www.youtube.com/watch?v=cNN_tTXABUA",
+                "https://www.youtube.com/watch?v=FZGugFqdr60"
+            ],
+            "imgPath": "http://localhost:3000/images/RAM.jpg"
+        },
+        {
+            "type": "CPU",
+            "description": "also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry,[1] and specialized processors such as graphics processing units (GPUs).",
+            "videos": [
+                "https://www.youtube.com/watch?v=vqs_0W-MSB0",
+                "https://www.youtube.com/watch?v=cNN_tTXABUA",
+                "https://www.youtube.com/watch?v=FZGugFqdr60"
+            ],
+            "imgPath": "http://localhost:3000/images/CPU.jpg"
+        },
+        {
+            "type": "GPU",
+            "description": "also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry,[1] and specialized processors such as graphics processing units (GPUs).",
+            "videos": [
+                "https://www.youtube.com/watch?v=vqs_0W-MSB0",
+                "https://www.youtube.com/watch?v=cNN_tTXABUA",
+                "https://www.youtube.com/watch?v=FZGugFqdr60"
+            ],
+            "imgPath": "http://localhost:3000/images/GPU.jpg"
+        },
+        {
+            "type": "HDD",
+            "description": "also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry,[1] and specialized processors such as graphics processing units (GPUs).",
+            "videos": [
+                "https://www.youtube.com/watch?v=vqs_0W-MSB0",
+                "https://www.youtube.com/watch?v=cNN_tTXABUA",
+                "https://www.youtube.com/watch?v=FZGugFqdr60"
+            ],
+            "imgPath": "http://localhost:3000/images/HDD.jpg"
+        },
+        {
+            "type": "Motherboard",
+            "description": "also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry,[1] and specialized processors such as graphics processing units (GPUs).",
+            "videos": [
+                "https://www.youtube.com/watch?v=vqs_0W-MSB0",
+                "https://www.youtube.com/watch?v=cNN_tTXABUA",
+                "https://www.youtube.com/watch?v=FZGugFqdr60"
+            ],
+            "imgPath": "http://localhost:3000/images/Motherboard.jpg"
+        }
+    ]
+}

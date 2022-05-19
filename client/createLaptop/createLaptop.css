@@ -1,0 +1,45 @@
+#addLaptopContainer{
+    margin-top: 16px;
+}
+#addLaptopContainer h1{
+    background: steelblue;
+    border-top: 1px solid black;
+    margin: auto;
+    margin-top: -17px;
+    width: 300px;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+}
+#addLaptopForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#addLaptopForm input{
+    width: 50%;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+}
+.createBtn{
+    background-color: steelblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.createBtn:hover{
+    background:cornflowerblue;
+    cursor: pointer;
+}
+
+label{
+    margin-left: 150px;
+}
